@@ -1,0 +1,68 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: flex;     
+}
+
+.Intro{
+    display: flex;
+    justify-content: left;    
+    flex-direction: column;    
+}
+
+.Prop{
+    text-align: flex;
+    font-size: 24px;
+}
+
+.tekspilih{
+    font-family: "Tahoma", sans-serif;
+    margin-bottom: 20px;    
+}
+
+#pilihmood{
+    border: 2px solid #05299e;
+    border-radius: 5px;
+}
+
+.tema{
+    font-family: "Tahoma", sans-serif; 
+    margin-top: 35px;  
+}
+
+#pilihtema{
+    border: 2px solid #080a99;
+    border-radius: 5px;
+}
+
+.dark {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.faktorial{
+    font-family: "Tahoma", sans-serif;  
+}
+
+.faktorial p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#Numbers{
+    border: 2px solid #1222b3;
+    border-radius: 5px;
+}
+
+#faktor{
+    border: 2px solid #160897;
+    border-radius: 5px;
+}

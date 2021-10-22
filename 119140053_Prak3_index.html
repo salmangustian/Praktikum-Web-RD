@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="utf-8">
+         <meta name="descriptions">
+         <meta name="author" content="119140053 - Salman illiyin Gustian">
+         
+        <title>Salman - Tugas Prak. Minggu 3</title>
+
+        <link rel="stylesheet" type="text/css" href="./119140053_Prak3_index.css">
+
+        <script src="./119140053_Prak3_index.js" defer></script>
+    </head>
+    <body>
+        <div class="Intro">
+            <div class="tema">
+                <label for="theme">Customized Your Theme</label>
+                <select id="pilihtema" onchange="theme()">
+                    <option value="dark" class="dark">Dark</option>
+                    <option value="light" class="light" selected>Light</option>
+                </select>
+            </div>
+            
+            <div class="Prop">
+                <h1>Welcome to My Website</h1>
+            </div>
+            
+
+            <div class="tekspilih">
+                <label for="mood">Pilih mood anda hari ini!</label>
+                <select id="pilihmood" onchange="vibe()">
+                    <option value="Senang" selected>Senang</option>
+                    <option value="marah">marah</option>
+                    <option value="sedih">Sedih</option>
+                </select>
+                <p id="desc"></p>                
+            </div>
+
+            <div class="faktorial">
+                <p>Silahkan masukkan angka dibawah ini untuk mengetahui nilai faktorialnya</p>
+                <label for="factorial">Masukkan Angka</label>
+                <input id="Numbers" >
+                <button id="faktor" onclick="count()">Hitung Nilai Faktorial</button>
+                <p id="hasilfaktor"></p>
+            </div>
+        </div>                
+    </body>
+</html>
