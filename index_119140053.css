@@ -1,0 +1,11 @@
+.position{
+    padding: 10px;
+    margin: 10px 20%;
+    text-align: center;
+}
+
+.copyright-author {
+    text-align: center;
+    width:100%;
+    position:fixed;bottom:0;
+}
